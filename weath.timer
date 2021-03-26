@@ -1,0 +1,10 @@
+[Unit]
+Description=weather timer
+
+[Timer]
+Unit=weath.service
+OnUnitActiveSec=3600s
+
+
+[Install]
+WantedBy=timers.target
