@@ -1,0 +1,10 @@
+[Unit]
+Descrition=weather service
+
+[Service]
+Type=simple
+ExecStart=/home/vagrant/weather
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
